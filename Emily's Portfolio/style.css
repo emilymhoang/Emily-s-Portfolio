@@ -1,0 +1,63 @@
+﻿/*Ensures that the nav bar doesn't have bullets/margins/padding*/
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    font-family: Courier New, Courier, monospace;
+    color: black;
+}
+
+#navbar li a:visited {
+    color: black !important;
+}
+
+#navbar li a:active {
+    color: black !important;
+}
+
+ #navbar li a:hover {
+        color: black !important;
+    }
+
+#navbar li {
+        padding: 2px;
+        display: inline;
+        font-size: 20px;
+    }
+
+#navbar ul {
+    float: right;
+    padding: 1px;
+}
+
+#name {
+    font-family: Courier 'Courier New';
+    letter-spacing: 1em;
+    font-size: 26px;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#name a:visited {
+    color: black !important;
+}
+
+#name a:active {
+        color: black !important;
+    }
+
+#name a:hover {
+        color: black !important;
+        text-decoration: none;
+    }
+
+#main { 
+    padding: 15px;
+
+}
+
+    #main h1 {
+        font-size: 100px;
+        align-content: center;
+    }
